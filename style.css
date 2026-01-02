@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7f7f7;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container{
+    margin: 30px auto;
+    width: 350px;
+}
+
+.earn-expend{
+    background-color: #fff;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.12) rgba(0,0,0,0.24);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.earn-expend> div {
+  flex: 1;
+  text-align: center;
+}
+
+.earn-expend > div:first-of-type {
+  border-right: 1px solid #dedede;
+}
+
+.money-plus {
+  color: #2ecc71; 
+}
+
+.money-minus {
+  color: #c0392b;
+}
+
+
+.button{
+cursor: pointer;
+  background-color: #9c88ff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  color: #fff;
+  border: 0;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 100%;
+}
